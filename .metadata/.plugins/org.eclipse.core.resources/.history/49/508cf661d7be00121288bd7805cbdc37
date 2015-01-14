@@ -1,0 +1,10 @@
+package streams
+
+object Vectors {
+  val level = Vector(Vector('o','o','o'),Vector('o','o','o'),Vector('o','c','o'))
+  
+  val res = levelVector filter (_ contains 'c')
+  
+   
+  
+}

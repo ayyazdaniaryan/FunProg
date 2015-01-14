@@ -1,0 +1,10 @@
+package streams
+
+object Vectors {
+  val level = Vector(Vector('o','o','o'),Vector('o','o','o'),Vector('o','c','o'))
+  
+  index = Vector(1,2,3) indexOf 3
+  
+   
+  
+}

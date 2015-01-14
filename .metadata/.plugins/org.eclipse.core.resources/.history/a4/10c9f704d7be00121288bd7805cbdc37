@@ -1,0 +1,11 @@
+package streams
+
+object Vectors {
+  val level = Vector(Vector('o','o','o'),Vector('o','o','o'),Vector('o','c','o'))
+                                                  //> level  : scala.collection.immutable.Vector[scala.collection.immutable.Vector
+                                                  //| [Char]] = Vector(Vector(o, o, o), Vector(o, o, o), Vector(o, c, o))
+  
+  val index = level indexOf 'c'                   //> index  : Int = -1
+   
+  
+}

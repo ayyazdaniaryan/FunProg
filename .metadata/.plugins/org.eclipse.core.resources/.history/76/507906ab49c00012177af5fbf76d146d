@@ -1,0 +1,7 @@
+package streams
+
+import streams.GameDef.Pos
+
+class Runner extends Solver {
+
+}

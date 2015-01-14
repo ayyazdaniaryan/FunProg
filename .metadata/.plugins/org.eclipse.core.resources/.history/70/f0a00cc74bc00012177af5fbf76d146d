@@ -1,0 +1,7 @@
+package streams
+
+import common._
+
+abstract class Runner extends Solver {
+	
+}

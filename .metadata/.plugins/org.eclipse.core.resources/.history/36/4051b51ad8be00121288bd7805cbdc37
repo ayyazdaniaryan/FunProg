@@ -1,0 +1,13 @@
+package streams
+
+object Vectors {
+  val level = Vector(Vector('o','o','o'),Vector('o','o','o'),Vector('o','c','o'))
+                                                  //> level  : scala.collection.immutable.Vector[scala.collection.immutable.Vector
+  val row = level.indexWhere(v => v.contains('c'))       //| [Char]] = Vector(Vector(o, o, o), Vector(o, o, o), Vector(o, c, o))
+  
+  val res = level filter (_ contains 'c')         //> res  : scala.collection.immutable.Vector[scala.collection.immutable.Vector[C
+                                                  //| har]] = Vector(Vector(o, c, o))
+  
+   
+  
+}

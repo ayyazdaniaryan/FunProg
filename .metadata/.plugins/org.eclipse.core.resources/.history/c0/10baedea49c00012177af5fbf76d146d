@@ -1,0 +1,8 @@
+package streams
+
+import common._
+import streams.GameDef
+
+abstract class Runner extends Solver {
+	
+}
